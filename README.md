@@ -11,7 +11,6 @@ Oyunun amacı coinleri toplayarak haritada çıkan düşmanlardan hasar yemeden 
 Oyunun mekaniklerinde şimdilik yürüme, zıplama ve çömelme mevcuttur. Buna ek olarak 2D oyuna 3D havası verebilmek için Parallax Scrolling eklenmiştir. Platform haritası oluşturulurken Tilemap kullanılmıştır.
 ## Oyundan Bazı Görüntüler
 ![ss1](https://github.com/zulaltak/2DPlatform_SchoolProject-1/blob/main/ss/ss1.jpeg)
-![ss2](https://github.com/zulaltak/2DPlatform_SchoolProject-1/blob/main/ss/ss2.jpeg)
 ![ss3](https://github.com/zulaltak/2DPlatform_SchoolProject-1/blob/main/ss/ss3.jpeg)
 ![ss4](https://github.com/zulaltak/2DPlatform_SchoolProject-1/blob/main/ss/ss4.jpeg)
 ### Asset için kaynak (Sadece grafikler için kullanılmıştır): https://rockymullet.itch.io/forest-gunner-artpack
