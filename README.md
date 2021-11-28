@@ -18,4 +18,4 @@ Oyunun mekaniklerinde şimdilik yürüme, zıplama ve çömelme mevcuttur. Buna 
 Adı Soyadı: Berkhan Özen ;
 Okul Numarası: 18360859020 ;
 Okul: Bursa Teknik Üniversitesi ;
-Ders: Oyun Programlama ;
+Ders: Oyun Programlama
