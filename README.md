@@ -15,10 +15,7 @@ Oyunun mekaniklerinde şimdilik yürüme, zıplama ve çömelme mevcuttur. Buna 
 ![ss4](https://github.com/zulaltak/2DPlatform_SchoolProject-1/blob/main/ss/ss4.jpeg)
 ### Asset için kaynak (Sadece grafikler için kullanılmıştır): https://rockymullet.itch.io/forest-gunner-artpack
 
-Adı Soyadı: Berkhan Özen
-
-Okul Numarası: 18360859020
-
-Okul: Bursa Teknik Üniversitesi
-
-Ders: Oyun Programlama
+Adı Soyadı: Berkhan Özen ;
+Okul Numarası: 18360859020 ;
+Okul: Bursa Teknik Üniversitesi ;
+Ders: Oyun Programlama ;
