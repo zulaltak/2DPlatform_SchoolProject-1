@@ -14,3 +14,8 @@ Oyunun mekaniklerinde şimdilik yürüme, zıplama ve çömelme mevcuttur. Buna 
 ![ss3](https://github.com/zulaltak/2DPlatform_SchoolProject-1/blob/main/ss/ss3.jpeg)
 ![ss4](https://github.com/zulaltak/2DPlatform_SchoolProject-1/blob/main/ss/ss4.jpeg)
 ### Asset için kaynak (Sadece grafikler için kullanılmıştır): https://rockymullet.itch.io/forest-gunner-artpack
+
+Berkhan Özen
+18360859020
+Bursa Teknik Üniversitesi
+Oyun Programlama
