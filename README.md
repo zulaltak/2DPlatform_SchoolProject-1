@@ -1,6 +1,6 @@
 # 2D Platform Game
 ### Oyunumuzun demo sürümüne [buradan](https://berkhanozen.itch.io/2dplatform-schoolproject) erişebilirsiniz
-Oyunumuz 2D Platformer oyunudur. Yandan görünüm bir kamera açısına sahiptir. 
+Oyunumuz 2D Side Scrolling Platform oyunudur. Yandan görünüm bir kamera açısına sahiptir. 
 ## Oyun Karakterinin Kontrolü
 Oyun karakterimiz W-A-S-D tuşları ile kontrol edilmektedir.
 W = Zıplama, S = Çömelme, A ve D = Sola ve sağa hareket etme.
