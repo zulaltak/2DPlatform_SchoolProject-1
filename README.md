@@ -1,4 +1,4 @@
-# 2DPlatform_SchoolProject
+# 2DPlatformGame
 ### Oyunumuzun demo sürümüne [buradan](https://berkhanozen.itch.io/2dplatform-schoolproject) erişebilirsiniz
 Oyunumuz 2D Platformer oyunudur. Yandan görünüm bir kamera açısına sahiptir. 
 ## Oyun Karakterinin Kontrolü
