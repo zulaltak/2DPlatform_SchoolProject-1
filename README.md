@@ -18,7 +18,7 @@ Ana Menü Müziği : Kevin Macleod - Chill Wave
 
 Oyun Müziği : Will Tim - Song of Storms (Zelda Theme Remix)
 
-Adı Soyadı: Berkhan Özen ;
-Okul Numarası: 18360859020 ;
+Adı Soyadı: Zülal TAK ;
+Okul Numarası: 19360859079 ;
 Okul: Bursa Teknik Üniversitesi ;
 Ders: Oyun Programlama
