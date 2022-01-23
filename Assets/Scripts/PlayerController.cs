@@ -3,9 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour
 {
+    [SerializeField] GameObject gameManager;
+
     Rigidbody2D rb;
     Animator anim;
     CapsuleCollider2D capCol;
@@ -24,7 +27,7 @@ public class PlayerController : MonoBehaviour
     float scaleX, scaleY;
     bool isGrounded;
 
-    static int score = 0;
+    public int score;
 
     void Start()
     {
@@ -36,7 +39,19 @@ public class PlayerController : MonoBehaviour
         scaleY = transform.localScale.y;
 
         defaultCapColSize = capCol.size; 
-        defaultCapColOffset = capCol.offset; 
+        defaultCapColOffset = capCol.offset;
+
+        if (!PlayerPrefs.HasKey("score"))
+        {
+            score = 0;
+        }
+        else
+        {
+            transform.position = new Vector3(PlayerPrefs.GetFloat("positionx"), PlayerPrefs.GetFloat("positiony"), 0);
+            score = PlayerPrefs.GetInt("score");
+        }
+
+        scoreText.text = $"Toplanan Coin: {score.ToString()} / {gameManager.GetComponent<GameManager>().scoreToNextLevel}";
     }
 
     void FixedUpdate()
@@ -128,7 +143,7 @@ public class PlayerController : MonoBehaviour
     void AddScore(int scorePoint)
     {
         score += scorePoint;
-        scoreText.text = "Toplanan Coin: " + score.ToString();
+        scoreText.text = $"Toplanan Coin: {score.ToString()} / {gameManager.GetComponent<GameManager>().scoreToNextLevel}";
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
@@ -145,4 +160,16 @@ public class PlayerController : MonoBehaviour
             Destroy(collision.gameObject);
         }
     }
+
+    public void SaveGame()
+    {
+        PlayerPrefs.SetInt("score", score);
+        PlayerPrefs.SetFloat("positionx", transform.position.x);
+        PlayerPrefs.SetFloat("positiony", transform.position.y);
+        PlayerPrefs.SetInt("sceneIndex", SceneManager.GetActiveScene().buildIndex);
+        PlayerPrefs.Save();
+    }
+
+    
+
 }
